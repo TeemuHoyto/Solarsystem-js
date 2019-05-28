@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:200');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:200');
+
+body{
+    background-color:rgb(39, 50, 51);
+    overflow: hidden;
+    }
+.jupiter{
+    position:absolute;
+    width:30%;
+    z-index: -1;
+    transform:translatex(-500px);
+    overflow-y: hidden;
+}
+#image{
+    position:absolute;
+    z-index: -10;
+    transform:translatex(800px);
+}
+.venus{
+    position:absolute;
+    width:50%;
+    z-index: -1;
+    transform:translate(1500px);
+    overflow-y: hidden;
+}
+.container{
+    width:100vw;
+    margin-right:auto;
+    margin-left:auto;
+    display:block;
+}
+h1{
+    margin-top:-0.1em;
+    color:white;
+    font-size:10vw;
+    letter-spacing:5px;
+    text-align:center;
+    font-family: 'Oswald', sans-serif;
+}
+input{
+    background-color:rgb(39, 50, 51);
+    color:white;
+    margin-top:1em;
+    width: 20vw;
+    padding:10px;
+    border-width:3px;
+    border-color:rgb(255, 239, 14);
+}
+input:focus { outline: none; }
+button{
+    box-sizing: content-box;
+    margin-top:10px;
+    width: 100%;
+    padding:10px;
+    border-width:3px;
+    border-color:rgb(255, 239, 14);
+    color:white;
+    background-color:rgb(39, 50, 51);
+}
+button:hover{
+    background-color:rgb(39, 50, 51);
+}
+button:focus { outline: none; }
+.formi{
+    margin-right:auto;
+    margin-left:auto;
+    display:block;
+    width:20%;
+}
+.planetcall{
+    width:20vw;
+    text-align:left;
+    margin-right:auto;
+    margin-left:auto;
+    display:block;
+    color:white;
+    font-family: 'open sans', sans-serif;
+}
+.conainer2{
+    position: absolute;
+    right:55%;
+top:70%;
+}
